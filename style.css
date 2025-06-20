@@ -1,0 +1,47 @@
+/* Brand text styling */
+.navbar-brand .brand-text {
+  font-family: 'Berkshire Swash', cursive;
+  font-size: 24px;
+  margin-left: 8px;
+  vertical-align: middle;
+}
+
+/* Tab highlight */
+.salon-tabs > li.active > a {
+  background-color: #eee;
+  font-weight: bold;
+}
+
+/* Container around the mantra section */
+.mantra-container {
+  background-color: #f7f7f7;
+  padding: 60px 30px;
+  margin-top: 20px;
+  border-radius: 4px;
+}
+
+/* Heading */
+.mantra-text h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  font-weight: 300;
+}
+
+/* Paragraphs */
+.mantra-text p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+/* Right column image styling */
+.mantra-image img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+/* Adjust overall body background or spacing if needed */
+body {
+  background: #fff;
+  padding-top: 70px; /* to push below fixed navbar */
+}
